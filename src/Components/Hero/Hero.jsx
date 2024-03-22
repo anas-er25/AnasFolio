@@ -14,6 +14,7 @@ const Hero = () => {
 
         <div className="hero-img">
           <div>
+            <span className="tech-icon-laravel-react">
             <div className="tech-icon">
               <img
                 src="./assets/images/lara.png"
@@ -28,6 +29,7 @@ const Hero = () => {
                 className="icon"
               />
             </div>
+            </span>
             <img src="./assets/images/anas.jpg" alt="My image" />
           </div>
           <div>

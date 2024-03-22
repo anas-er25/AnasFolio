@@ -10,11 +10,12 @@
   width: 28.125rem;
   height: 28.125rem;
   border-radius: 28.125rem;
-  background: #0098f1;
+  /* background: #0098f1; */
+  background: rgba(0, 152, 241, .04);/*here to control the opacity color you need */
   position: absolute;
   z-index: -1;
-  opacity: 1;
-  /* filter: blur(255px); */
+  box-shadow: 1px 1px 3pc 1pc rgba(0, 152, 241, .04) ;
+ 
 }
 
 .hero-container ::after {
@@ -89,6 +90,14 @@
 .hero-img > div > img:hover,
 .tech-icon img:hover {
   transform: translateX(-0.5rem);
+}
+
+/* add this for icons */
+.tech-icon-laravel-react{
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+
 }
 
 @media (max-width: 1025px) {
