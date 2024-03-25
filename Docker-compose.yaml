@@ -1,0 +1,18 @@
+#  docker build -t my-vue-app .    
+# docker run -d -p 8080:8080 my-vue-app
+
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+#     networks:
+#       - my_network
+
+# networks:
+#   my_network:
+#     external: true
