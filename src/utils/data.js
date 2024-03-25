@@ -38,3 +38,36 @@ export const SKILLS = [
     ],
   },
 ];
+
+export const EXPERIENCES = [
+  {
+    title: "Junior Web Developer at Veneroo",
+    date: "Mars 2024 - Present",
+    responsabilities: [
+      "Develeped and maintained client websites",
+      "Collaborated with cross-functional teams",
+      "Implemented responsive design and cross-browser compatibility",
+      "Optimized website performance",
+    ],
+  },
+  {
+    title: "Frontend Developer at Benchmark",
+    date: "Avril 2022 - Mars 2024",
+    responsabilities: [
+      "Implemented responsive design and cross-browser compatibility",
+      "Develeped and maintained client websites",
+      "Collaborated with cross-functional teams",
+      "Created and maintained APIs",
+    ],
+  },
+  {
+    title: "Backend Developer at OFPPT",
+    date: "Avril 2021 - Avril 2022",
+    responsabilities: [
+      "Develeped and maintained client websites",
+      "Collaborated with cross-functional teams",
+      "Implemented responsive design and cross-browser compatibility",
+      "Optimized website performance",
+    ],
+  },
+];
