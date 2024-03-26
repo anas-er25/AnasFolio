@@ -17,26 +17,31 @@ const Navbar = () => {
           </h1>
           <ul>
             <li>
-              <a href="#" className="menu-item">
+              <a href="#home" className="menu-item">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="menu-item">
+              <a href="#skills" className="menu-item">
                 Skills
               </a>
             </li>
             <li>
-              <a href="#" className="menu-item">
+              <a href="#experience" className="menu-item">
                 Work Experience
               </a>
             </li>
             <li>
-              <a href="#" className="menu-item">
+              <a href="#contact" className="menu-item">
                 Contact Me
               </a>
             </li>
-            <button className="contact-btn" onClick={() => {}}>
+            <button
+              className="contact-btn"
+              onClick={() => {
+                window.location.href = "mailto:errakibianas8@gmail.com";
+              }}
+            >
               Hire Me
             </button>
           </ul>
