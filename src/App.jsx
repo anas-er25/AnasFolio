@@ -4,7 +4,7 @@ import Hero from "./Components/Hero/Hero";
 import Skills from './Components/Skills/Skills';
 import Experience from './Components/Experiences/Experience';
 import Contact from './Components/Contact/Contact';
-import ReCAPTCHA from 'react-google-recaptcha';
+// import ReCAPTCHA from 'react-google-recaptcha';
 function App() {
  
   return (
@@ -15,9 +15,7 @@ function App() {
         <Skills/>
         <Experience/>
         <Contact/>
-        <ReCAPTCHA
-          sitekey="6LejqKUpAAAAAJGa4ecNA0Iazq0Q0lxmq1EBtPJE"
-        />
+        {/* <ReCAPTCHA sitekey="6LejqKUpAAAAAJGa4ecNA0Iazq0Q0lxmq1EBtPJE"/> */}
       </div>
     </>
   )
