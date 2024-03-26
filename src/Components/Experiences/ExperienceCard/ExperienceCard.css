@@ -41,3 +41,15 @@
   top: 0.35rem;
 }
 
+@media (max-width: 768px) {
+  .experience-card {
+    margin: 0;
+  }
+  .experience-card h6 {
+    font-size: 0.95rem;
+  }
+
+  .experience-card ul li {
+    font-size: 0.75rem;
+  }
+}
