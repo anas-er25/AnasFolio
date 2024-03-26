@@ -10,10 +10,15 @@
   width: 28.125rem;
   height: 28.125rem;
   border-radius: 28.125rem;
-  background: rgba(0, 152, 241, .04);/*here to control the opacity color you need */
+  background: rgba(
+    0,
+    152,
+    241,
+    0.04
+  ); /*here to control the opacity color you need */
   position: absolute;
   z-index: -1;
-  box-shadow: 1px 1px 3pc 1pc rgba(0, 152, 241, .04) ;
+  box-shadow: 1px 1px 3pc 1pc rgba(0, 152, 241, 0.04);
 }
 
 .hero-container ::after {
@@ -91,18 +96,16 @@
 }
 
 /* add this for icons */
-.tech-icon-laravel-react{
+.tech-icon-laravel-react {
   display: flex;
   gap: 25px;
   flex-direction: column;
-
 }
-@media (max-width: 1300px)
-{
-.container {
+@media (max-width: 1300px) {
+  .container {
     padding: 0 1.5rem;
-    top: -20rem;
-}
+    /* top: -20rem; */
+  }
 }
 
 @media (max-width: 1025px) {

@@ -26,6 +26,6 @@
 
 @media (max-width: 1300px) {
   .contact-container {
-    top: -20rem;
+    /* top: -20rem; */
   }
 }
