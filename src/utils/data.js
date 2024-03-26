@@ -24,7 +24,9 @@ export const SKILLS = [
     icon: "./assets/images/tools-icon.png",
     skills: [
       { title: "Visual Studio Code", percentage: "90%" },
+      { title: "Azure DevOps", percentage: "50%" },
       { title: "Git & GitHub & GitLab", percentage: "80%" },
+      { title: "Jira Software", percentage: "50%" },
     ],
   },
   {
@@ -41,33 +43,21 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
+    title: "Trainee Developer at Veneroo",
+    date: "January 2024 - February 2024",
+    responsabilities: [
+      "Develeped and maintained client websites",
+      "Optimized website performance",
+      "Created new features and implemented new functionality",
+    ],
+  },
+  {
     title: "Junior Web Developer at Veneroo",
-    date: "Mars 2024 - Present",
+    date: "March 2024 - Present",
     responsabilities: [
       "Develeped and maintained client websites",
       "Collaborated with cross-functional teams",
       "Implemented responsive design and cross-browser compatibility",
-      "Optimized website performance",
-    ],
-  },
-  {
-    title: "Frontend Developer at Benchmark",
-    date: "Avril 2022 - Mars 2024",
-    responsabilities: [
-      "Implemented responsive design and cross-browser compatibility",
-      "Develeped and maintained client websites",
-      "Collaborated with cross-functional teams",
-      "Created and maintained APIs",
-    ],
-  },
-  {
-    title: "Backend Developer at OFPPT",
-    date: "Avril 2021 - Avril 2022",
-    responsabilities: [
-      "Develeped and maintained client websites",
-      "Collaborated with cross-functional teams",
-      "Implemented responsive design and cross-browser compatibility",
-      "Optimized website performance",
     ],
   },
 ];

@@ -5,10 +5,10 @@ const Hero = () => {
     <>
       <section className="hero-container" id="home">
         <div className="hero-content">
-          <h2>Builiding Digital Experiences that Matter</h2>
+          <h2>Crafting Meaningful Digital Experiences</h2>
           <p>
-            Passionate Full Stack Web Developer | Transform your ideas into
-            reality
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            I'm Anas ER-RAKIBI, a passionate Full Stack Web Developer.
           </p>
         </div>
 
