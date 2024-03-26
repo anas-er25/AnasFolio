@@ -84,3 +84,10 @@
     padding: 0;
   }
 }
+
+@media (max-width: 1300px) {
+  .skills-container {
+    top: -20rem;
+  }
+
+}

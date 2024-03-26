@@ -97,6 +97,13 @@
   flex-direction: column;
 
 }
+@media (max-width: 1300px)
+{
+.container {
+    padding: 0 1.5rem;
+    top: -20rem;
+}
+}
 
 @media (max-width: 1025px) {
   .hero-content h2 {

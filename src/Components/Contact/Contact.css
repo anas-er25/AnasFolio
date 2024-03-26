@@ -23,3 +23,9 @@
     font-size: 1.3rem;
   }
 }
+
+@media (max-width: 1300px) {
+  .contact-container {
+    top: -20rem;
+  }
+}
