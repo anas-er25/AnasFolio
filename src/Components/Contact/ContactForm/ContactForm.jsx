@@ -1,6 +1,7 @@
 import "./ContactForm.css";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const ContactForm = () => {
   const form = useRef();
@@ -14,13 +15,22 @@ const ContactForm = () => {
       })
       .then(
         () => {
-          alert("EMAIL SENDED SUCCESSFULLY!, Thanks!");
+          // Remplacer l'alerte simple par une alerte Swal
+          Swal.fire({
+            title: 'Success!',
+            text: 'EMAIL SENT SUCCESSFULLY, Thanks!',
+            icon: 'success'
+          });
           form.current.reset();
         },
         (error) => {
-
           console.log("FAILED...", error.text);
-          alert("EMAIL NOT SENDED!!");
+          // Remplacer l'alerte simple par une alerte Swal
+          Swal.fire({
+            title: 'Error!',
+            text: 'EMAIL NOT SENT!',
+            icon: 'error'
+          });
         }
       );
   };
