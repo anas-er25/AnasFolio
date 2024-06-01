@@ -6,6 +6,8 @@ export const SKILLS = [
       { title: "HTML5", percentage: "90%" },
       { title: "CSS3", percentage: "50%" },
       { title: "JavaScript", percentage: "70%" },
+      { title: "Bootstrap", percentage: "87%" },
+      { title: "Tailwind", percentage: "70%" },
       { title: "React.js", percentage: "50%" },
     ],
   },
@@ -13,12 +15,13 @@ export const SKILLS = [
     title: "Backend",
     icon: "./assets/images/backend-icon.png",
     skills: [
-      { title: "PHP", percentage: "70%" },
       { title: "Node.js", percentage: "60%" },
       { title: "Express.js", percentage: "60%" },
+      { title: "PHP", percentage: "70%" },
       { title: "Laravel", percentage: "70%" },
       { title: "MySQL", percentage: "80%" },
       { title: "MongoDB", percentage: "75%" },
+      { title: "Python", percentage: "50%" },
     ],
   },
   {
@@ -29,6 +32,7 @@ export const SKILLS = [
       { title: "Azure DevOps", percentage: "50%" },
       { title: "Git & GitHub & GitLab", percentage: "80%" },
       { title: "Jira Software", percentage: "50%" },
+      { title: "Figma", percentage: "80%" },
     ],
   },
   {
@@ -62,6 +66,24 @@ export const EXPERIENCES = [
       "Develeped and maintained client websites",
       "Collaborated with cross-functional teams",
       "Implemented responsive design and cross-browser compatibility",
+      "Developing a medical website",
     ],
+  },
+];
+
+export const PROJECTS = [
+  {
+    title: "Filament hrm",
+    description:
+      "Filament HRM is a web application for companies that allows HR Managers to manage various aspects of human resources efficiently.",
+    image: "./assets/images/Filament-project.png",
+    link: "https://github.com/anas-er25/filament-hrm",
+  },
+  {
+    title: "Veneroo",
+    description:
+      "Veneroo is a web application that allows users to know about services, location, projects, and other key aspects of various businesses and organizations.",
+    image: "./assets/images/veneroo.png",
+    link: "https://github.com/anas-er25/veneroo",
   },
 ];

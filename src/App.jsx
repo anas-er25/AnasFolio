@@ -5,6 +5,7 @@ import Skills from './Components/Skills/Skills';
 import Experience from './Components/Experiences/Experience';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import Project from './Components/Projects/Project';
 // import ReCAPTCHA from 'react-google-recaptcha';
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
         <Hero/>
         <Skills/>
         <Experience/>
+        <Project/>
         <Contact/>
         {/* <ReCAPTCHA sitekey="6LejqKUpAAAAAJGa4ecNA0Iazq0Q0lxmq1EBtPJE"/> */}
       </div>
