@@ -17,6 +17,8 @@ export const SKILLS = [
       { title: "Node.js", percentage: "60%" },
       { title: "Express.js", percentage: "60%" },
       { title: "Laravel", percentage: "70%" },
+      { title: "MySQL", percentage: "80%" },
+      { title: "MongoDB", percentage: "75%" },
     ],
   },
   {
@@ -36,7 +38,8 @@ export const SKILLS = [
       { title: "Collaboration", percentage: "70%" },
       { title: "Problem Solving", percentage: "55%" },
       { title: "Adaptability", percentage: "65%" },
-      { title: "Time management", percentage: "50%" },
+      { title: "Time management", percentage: "60%" },
+      { title: "Communication", percentage: "50%" },
     ],
   },
 ];
@@ -49,6 +52,7 @@ export const EXPERIENCES = [
       "Develeped and maintained client websites",
       "Optimized website performance",
       "Created new features and implemented new functionality",
+      "Developed an HRM website",
     ],
   },
   {
