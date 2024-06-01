@@ -31,9 +31,6 @@ const NavbarMobile = ({ isOppen, toggleMenu }) => {
                 Contact Me
               </a>
             </li>
-            <button className="contact-btn" onClick={() => {}}>
-              Hire Me
-            </button>
           </ul>
         </div>
       </div>

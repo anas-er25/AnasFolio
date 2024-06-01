@@ -36,14 +36,6 @@ const Navbar = () => {
                 Contact Me
               </a>
             </li>
-            <button
-              className="contact-btn"
-              onClick={() => {
-                window.location.href = "mailto:errakibianas8@gmail.com";
-              }}
-            >
-              Hire Me
-            </button>
           </ul>
           <button className="menu-btn" onClick={toggleMenu}>
             <span
