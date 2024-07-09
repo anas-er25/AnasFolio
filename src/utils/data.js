@@ -73,6 +73,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Virtual Reality",
+    description:
+      "VirtualR is a cutting-edge platform providing powerful tools for developers to easily build and manage virtual reality (VR) applications. Utilizing React.js and Tailwind CSS, VirtualR offers an intuitive and streamlined development experience.",
+    image: "./assets/images/VirtualR.png",
+    link: "https://github.com/anas-er25/VirtualR-Landing-page",
+  },
+  {
     title: "Filament hrm",
     description:
       "Filament HRM is a web application for companies that allows HR Managers to manage various aspects of human resources efficiently.",
